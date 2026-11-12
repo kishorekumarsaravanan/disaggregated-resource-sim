@@ -3,7 +3,7 @@
 Python + SimPy discrete-event simulation. Time unit: nanoseconds.
 
 ```
-pip install simpy pandas matplotlib
+pip install -r requirements.txt
 python tests/test_engine.py            # likewise test_resources / test_fabric / test_manager / test_workloads
 python experiments/demo_rebalance.py   # context example: memory moves from App B to App A
 python experiments/demo_workloads.py   # 3 apps sharing the pools
